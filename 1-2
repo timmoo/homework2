@@ -1,0 +1,11 @@
+USE WideWorldImporters;
+GO
+SELECT  *
+FROM Warehouse.StockItems
+where StockItemName LIKE '%Animal%'
+
+USE WideWorldImporters;
+GO
+SELECT  *
+FROM Warehouse.StockItems
+where StockItemName LIKE '%urgent%' 
